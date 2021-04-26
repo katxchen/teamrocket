@@ -1,1 +1,1 @@
-Sitemap: http://fsae.engineering.columbia.edu/sitemap.txt
+Sitemap: https://katxchen.github.io/teamrocket/sitemap.txt
