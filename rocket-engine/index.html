@@ -30,21 +30,7 @@
             margin-left: 45%;
         }
     </style>
-    <script>
-        function before(){
-            document.getElementById('myImage')
-                .src="/teamrocket/assets/img/jvh.jpg";
-            document.getElementById('message')
-                .innerHTML="Hii!people";
-        }
 
-        function afterr(){
-            document.getElementById('myImage')
-                .src="/teamrocket/assets/img/icons8-steering_wheel.png";
-            document.getElementById('message')
-                .innerHTML="Bye! people";
-        }
-    </script>
 </head>
 
 <body>
@@ -55,7 +41,13 @@
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item" role="presentation"><a class="nav-link text-light active" href="/teamrocket/" style="color: #e1e1e1;">HOME</a></li>
                 <li class="nav-item" role="presentation"><a class="nav-link text-light" href="/teamrocket/about-us/" style="color: #e1e1e1;">ABOUT US</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link text-light" href="/teamrocket/rocket-engine/" style="color: #e1e1e1;">ROCKET ENGINE</a></li>
+                <li class="nav-item dropdown" role="presentation"><a class="nav-link dropdown-toggle" href="/teamrocket/rocket-engine/" style="color: #e1e1e1;">ROCKET ENGINE</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                        <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                        <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                    </ul>
+                </li>
                 <li class="nav-item" role="presentation"><a class="nav-link text-light" href="/teamrocket/sponsors/" style="color: #e1e1e1;">SPONSORS</a></li>
             </ul>
         </div>
@@ -64,7 +56,7 @@
 <main class="page">
     <section class="clean-block about-us">
         <div class="container">
-            <div data-aos="fade" data-aos-duration="1000" class="block-heading"><img src="/teamrocket/assets/img/engine/diagram-1.png" style="width: 60%;margin-top: -7%;">
+            <div data-aos="fade" data-aos-duration="1000" class="block-heading"><img src="/teamrocket/assets/img/engine/diagram-1.png" style="width: 60%;margin-top: 1%;">
                 <h2 class="text-body" style="color: rgb(36,59,83);padding-top: 15px;margin-bottom: 5%;margin-top: 1%;">Components</h2>
                 <p>This is the full assembly of our engine design. It has two major components: the injector and the combustion chamber.</p>
             </div>
@@ -75,29 +67,7 @@
                 <figcaption class="figure-caption" style="width: 200px;">The cockpit/controls subteam is responsible for the pedal box, seat, and driver controls of both vehicles.</figcaption>
             </figure>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6">
-                        <h1 id="message">
-                            Hii! GeeksforGeeks people
-                        </h1>
-                        <img  id="myImage"
-                              src="img/photo1.jpg"  >
-                    </div>
-                    <div class="col-md-3"></div>
-                </div>
-            </div>
-            <div class="button">
-                <button class="btn btn-warning"
-                        onclick=before();>
-                    Before
-                </button>
-                <button  class="btn btn-success"
-                         onclick=afterr();>
-                    Afterr
-                </button>
-            </div>
+
 
             <figure class="figure" style="padding-right: 0px;padding-left: 0px;margin-right: 40px;"><img class="img-fluid figure-img" src="/teamrocket/assets/img/icons8-f1_race_car_top_view.png" style="margin-right: -3px;padding-left: 0px;">
                 <figcaption class="figure-caption" style="padding-left: 0px;"><strong>Dynamics</strong></figcaption>
