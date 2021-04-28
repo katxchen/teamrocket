@@ -29,6 +29,9 @@
         .button{
             margin-left: 45%;
         }
+        #bootstrap-overrides h1{ font-family: 'Fjalla One', sans-serif; color: rgb(28, 46, 66) !important; font-size: 3.5em;}
+        #bootstrap-overrides h2{ font-family: 'Fjalla One', sans-serif; color: rgb(28, 46, 66) !important; font-size: 3em;}
+        #bootstrap-overrides h4{ font-family: 'Fjalla One', sans-serif; color: rgb(28, 46, 66) !important; font-size: 2em;}
         .navbar .nav-item .dropdown-menu{ display: none; }
         .navbar .nav-item:hover .nav-link{   }
         .navbar .nav-item:hover .dropdown-menu{ display: block; }
@@ -37,10 +40,9 @@
 
 </head>
 
-<body>
+<body id="bootstrap-overrides">
 <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" style="background-color: rgb(255,255,255);background-image: url(&quot;/teamrocket/assets/img/beautiful-color-ui-gradients-backgrounds-royal.png&quot;);opacity: 1;background-size: cover;background-position: center;">
-    <div class="container"><img src="/teamrocket/assets/img/rocket-logo-white.svg" width="40" height="100%"><a class="navbar-brand logo" href="/" style="font-family: 'Fjalla One', sans-serif;font-size: 19px;color: rgb(255,255,255);padding-top: 0px;padding-bottom: 0px;margin-right: 0px;padding-left: 11px;">Team Rocket</a><button data-toggle="collapse"
-                                                                                                                                                                                                                                                                                                                                          class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <div class="container"><img src="/teamrocket/assets/img/rocket-logo-white.svg" width="40" height="100%"><a class="navbar-brand logo" href="/" style="font-family: 'Fjalla One', sans-serif;font-size: 19px;color: rgb(255,255,255);padding-top: 0px;padding-bottom: 0px;margin-right: 0px;padding-left: 11px;">Team Rocket</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item" role="presentation"><a class="nav-link text-light active" href="/teamrocket/" style="color: #e1e1e1;">HOME</a></li>
@@ -60,73 +62,49 @@
 </nav>
 <main class="page">
     <section></section>
-    <h2 class="text-body" data-aos="fade" data-aos-duration="700" style="color: rgb(28, 46, 66);padding-top: 15px;margin-bottom: 100px;margin-top: 150px;">Engine Overview</h2>
+    <h1 class="block-heading" data-aos="fade" data-aos-duration="700" style="color: rgb(28, 46, 66);padding-top: 15px;margin-top: 50px;text-align: center">Cold FLow Testing</h1>
     <section></section>
     <section class="clean-block about-us">
         <div class="container">
-            <div data-aos="fade" data-aos-duration="1000" class="block-heading"><img src="/teamrocket/assets/img/engine/diagram-1.png" style="width: 60%;margin-top: 1%;">
-                <h2 class="text-body" style="color: rgb(36,59,83);padding-top: 15px;margin-bottom: 5%;margin-top: 1%;">Components</h2>
-                <p>This is the full assembly of our engine design. It has two major components: the injector and the combustion chamber.</p>
+            <div data-aos="fade" data-aos-duration="1000" class="block-heading">
+                <img src="/teamrocket/assets/img/testing/ox_coldflow.jpg" style="width: 60%;margin-top: 1%;margin-left: 5%;">
+                <h2 class="text-body" style="color: rgb(36,59,83);padding-top: 15px;padding-bottom: 5px;margin-bottom: 1%;margin-top: 1%;">Oxidizer Test</h2>
+                <p>This figure shows the results of our oxidizer cold flow test. No stray impinging streams from the fuel orifices are seen, suggesting that there are no leaks between our fuel and oxidizer manifolds.</p>
             </div>
         </div>
-        <div class="container-fluid text-center" data-aos="fade" data-aos-duration="1000" style="padding-bottom: 50px;">
-            <figure class="figure" style="margin-right: 40px;"><img class="img-fluid figure-img" src="/teamrocket/assets/img/icons8-steering_wheel.png">
-                <figcaption class="figure-caption"><strong>Controls</strong></figcaption>
-                <figcaption class="figure-caption" style="width: 200px;">The cockpit/controls subteam is responsible for the pedal box, seat, and driver controls of both vehicles.</figcaption>
-            </figure>
 
-            <figure class="figure" style="padding-right: 0px;padding-left: 0px;margin-right: 40px;"><img class="img-fluid figure-img" src="/teamrocket/assets/img/icons8-f1_race_car_top_view.png" style="margin-right: -3px;padding-left: 0px;">
-                <figcaption class="figure-caption" style="padding-left: 0px;"><strong>Dynamics</strong></figcaption>
-                <figcaption class="figure-caption" style="padding-left: 0px;width: 200px;">The Dynamics subteam is comprised of the suspension, brakes, steering, hubs/uprights, and drivetrain systems of both the electric and internal combustion vehicles.</figcaption>
-            </figure>
-            <figure class="figure" style="padding-left: 0px;"><img class="img-fluid figure-img" src="/teamrocket/assets/img/icons8-washer_fluid.png" style="padding-left: 0px;">
-                <figcaption class="figure-caption" style="padding-left: 0px;"><strong>Fluids</strong></figcaption>
-                <figcaption class="figure-caption" style="padding-left: 0px;width: 200px;">The Fluids subteam is comprised of the engine, intake, and exhaust systems on the combustion vehicle and the cooling and aerodynamics systems on both vehicles.</figcaption>
-            </figure>
-        </div>
         <div class="container-fluid text-center" data-aos="fade" data-aos-duration="1000" data-aos-delay="200" style="padding-bottom: 100px;">
-
-
-            <section></section>
-            <h2 class="text-body" data-aos="fade" data-aos-duration="700" style="color: rgb(28, 46, 66);padding-top: 15px;margin-bottom: 100px;margin-top: 150px;">Injector Analysis</h2>
-            <section></section>
-            <div class="row" data-aos="fade" data-aos-duration="1000" style="width: 90%;margin-left: 5%;">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="/teamrocket/assets/img/headshots/Denis_Profka.JPG">
-                        <div class="card-body info">
-                            <h4 class="card-title">Denis Profka</h4>
-                            <p class="card-text">Chief Mechanical Engineer</p>
+            <section class="clean-block clean-info dark" style="padding-bottom: 1px;">
+                <section></section>
+                <h2 class="block-heading" data-aos="fade" data-aos-duration="700" style="color: rgb(28, 46, 66);padding-top: 15px;margin-top: 150px;padding-bottom: 3%">Analysis</h2>
+                <section></section>
+                <div class="container" data-aos="fade" data-aos-duration="1200" data-aos-delay="200">
+                    <div class="container-fluid text-center">
+                        <h4 class="block-heading" style="color: rgb(36,59,83);padding-bottom: 10px;padding-top: 10px;margin: 3% auto 3%;">Impingement Test</h4>
+                        <img src="/teamrocket/assets/img/testing/ox_fuel_coldflow.jpg" style="width: 60%;margin-top: 1%;margin-left: 5%;">
+                        <p style="margin-top: 1%; margin-bottom: 3%;">The image above shows a test of both our fuel and oxidizer elements. Upon visual inspection, we saw that each of our triplet impinging streams were coming into contact with one another at expected impingement distances.</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div data-aos="fade" data-aos-duration="1000" class="text" style="padding-bottom: 1%;margin-left: auto;margin-right: auto;">
+                        <h4 class="block-heading" style="color: rgb(36,59,83);margin-bottom: 3%;margin-top: 1%;">Full Cold Flow Test</h4>
+                        <img src="/teamrocket/assets/img/testing/cc_coldflow.jpg" style="width: 500px;margin-top: 1%; margin-bottom: 3%;">
+                        <div class="text" style="margin-bottom: rwpx;padding-bottom: 20px;padding-top: 10px;margin-left: auto;margin-right: auto;">
+                            <p style="margin-top: 1%; margin-bottom: 3%;text-align: justify;">
+                                The final image shows our full assembly attached to our cold flow set up. No leaks were observed between the injector and the combustion chamber. While these tests were performed at pressures lower than expected for our engine, they serve as a basis for future cold flow tests at expected operating pressures in the future.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="/teamrocket/assets/img/headshots/profile.png">
-                        <div class="card-body info">
-                            <h4 class="card-title">Tyler Riddle</h4>
-                            <p class="card-text">Chief Electrical Engineer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="/teamrocket/assets/img/headshots/Kat_Chen-min.JPG">
-                        <div class="card-body info">
-                            <h4 class="card-title">Kat Chen</h4>
-                            <p class="card-text">President</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <section></section>
-            <h2 class="text-body" data-aos="fade" data-aos-duration="700" style="color: rgb(28, 46, 66);padding-top: 15px;margin-bottom: 100px;margin-top: 150px;">Prototype</h2>
-            <section></section>
-
+            </section>
+        </div>
     </section>
 
 </main>
 <footer class="page-footer dark" style="padding-bottom: 3px;">
 
     <div class="footer-copyright">
-        <p>© 2020 Copyright Columbia University FSAE</p>
+        <p>© 2020 Copyright Lalitha Madduri</p>
     </div>
 </footer>
 <script src="/teamrocket/assets/js/jquery.min.js"></script>
