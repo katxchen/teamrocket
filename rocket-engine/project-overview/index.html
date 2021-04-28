@@ -82,8 +82,8 @@
                         <div class="block-heading">
                             <h4 class="text-body" style="color: rgb(36,59,83);margin-bottom: 3%;margin-top: 1%;">Coolant and Wall Temperature</h4>
                         </div>
-                        <div data-aos="fade" data-aos-duration="1000" class="text">
-                            <p style="margin-top: 1%; margin-bottom: 3%;">
+                        <div class="text" style="margin-bottom: 84px;padding-bottom: 20px;margin-left: auto;margin-right: auto;">
+                            <p style="margin-top: 1%; margin-bottom: 3%;text-align: justify;">
                                 To ensure adequate engine cooling, we carefully designed and analyzed the engine’s cooling channels. As the regenerative  cooling  process  involves  a  complex  coupling  between the fluid flow, wall temperature, and combustion properties, an  iterative  regenerative  cooling  simulation  was  developed in  Python  to  model  the  cooling  process  as  accurately  as possible, including effects such as subcooled nucleate boiling and wall roughness which can be extremely important at high heat fluxes and in additively manufactured channels.
                             </p>
                         </div>
@@ -101,11 +101,22 @@
                 <div class="container">
                     <div data-aos="fade" data-aos-duration="1000" class="text" style="margin-bottom: 84px;padding-bottom: 20px;margin-left: auto;margin-right: auto;">
                         <div class="container-fluid text-center">
-                            <h4 class="text-body" style="color: rgb(36,59,83);padding-top: 15px;margin-bottom: 3%;margin-top: 1%;">Injector Analysis</h4>
+                            <h4 class="text-body" style="color: rgb(36,59,83);padding-top: 15px;margin-bottom: 3%;margin-top: 1%;">Injector</h4>
                         </div>
                         <img src="/teamrocket/assets/img/analysis/injector_cfd.png" style="width: 500px;margin-top: 1%; margin-bottom: 3%;">
                         <p style="margin-top: 1%; margin-bottom: 3%;text-align: justify;">
                             To drive our iterative design process of the injector, we performed a number of CFD simulations to both validate our hand calculations and to ensure we were not getting any unexpected flow patterns. The results of our the simulation with our final element pattern is shown below. As seen in the figure, our mass flow rate is at most 1% off nominal.
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div data-aos="fade" data-aos-duration="1000" class="text" style="margin-bottom: 84px;padding-bottom: 20px;margin-left: auto;margin-right: auto;">
+                        <div class="container-fluid text-center">
+                            <h4 class="text-body" style="color: rgb(36,59,83);padding-top: 15px;margin-bottom: 3%;margin-top: 1%;">Cooling Channels</h4>
+                        </div>
+                        <img src="/teamrocket/assets/img/analysis/cooling_channel_cutaway.PNG" style="width: 500px;margin-top: 1%; margin-bottom: 3%;">
+                        <p style="margin-top: 1%; margin-bottom: 3%;text-align: justify;">
+                            In addition to our analytical models, based on some previous experience with regenerative cooling design, we chose to introduce a cooling channel design in which the channels spiral around the barrel section of the combustion chamber, as can be seen in the cutaway view above. This design is meant to ensure that even given some radial asymmetry in the combustion chamber, a positive feedback loop will not be formed between an individual channel location and injector element causing a runaway temperature spike and thus a hot-spot at a single location in the chamber.
                         </p>
                     </div>
                 </div>
